@@ -1,0 +1,204 @@
+*{
+    font-family: iyekan;
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-size: 1.2vw;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: vaziri;
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: iyekan;
+    src: url("../fonts/iyekan/IRANYekanMedium.ttf");
+     font-weight: normal;
+}
+@mixin btn {
+    width: 37%;
+    height: 15%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2vw;
+    border: 2px solid white;
+    align-items: center; 
+    &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 16.5vw;
+        transform: translateY(-50%);
+        left: 6.2vw;
+      width:1.6vw;        
+        height: .2vw;
+        background: #fff;            
+    }
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 16.5vw;
+        transform: translateY(-50%);
+        left: 16.9vw;
+        width:1.6vw;        
+        height: .2vw;
+        background: #fff;            
+    }
+    transition:all 0.3s linear ;
+&:hover{
+border: 2px solid #f9cc41;
+background: #f9cc41;     
+color:#262533 ;       
+&::after,&::before{
+background: #f9cc41;  
+}
+
+}
+}
+
+@mixin btn-both {
+    border: 2px solid #262533;
+    background-color: #262533;
+    position: relative;
+    width: 45%;
+  height: 3.5vw;
+    button{
+    @include btn1();
+    color: #f9cc41;
+    border: 2px solid #262533;
+    &::before{
+      top: 1.4em;
+    left: -1.6em;
+      background: #262533;  
+      @media (max-width:1200px){
+        top: 1.2em;
+      }
+  }
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1.4em;
+  transform: translateY(-50%);
+  right: -1.6em;
+  width: 2vw;       
+    height: .2vw;
+    background: #262533;  
+    @media (max-width:1200px){
+      top: 1.2em;
+    }
+  }
+  transition:all 0.3s linear ;
+
+&:hover{
+background: #f9cc41;     
+color:#262533 ;       
+&::before,&::after{
+background: #262533;  
+}
+    } 
+
+   }
+}
+
+
+@mixin btn1 {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2vw;
+  border: 2px solid white;
+  align-items: center;
+  transition:all 0.3s linear ;
+  &::before{
+      content: "";
+      display: block;
+      position: absolute;
+      top: 1.2em;
+    transform: translateY(-50%);
+    left: -1.6em;
+    width: 2vw;       
+      height: .2vw;
+      background: #fff;            
+  }
+&:hover{
+border: 2px solid #f9cc41;
+background: #f9cc41;     
+color:#262533 ;       
+&::before{
+background: #f9cc41;  
+}
+
+}
+}
+
+
+
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #d3ab55;
+$color-secondary: #bbb;
+$color-white : #fff;
+
+$font-dancingScript: "Dancing Script", cursive;
+$font-josefinSans: "Josefin Sans", sans-serif;
+$font-nunito: "Nunito", sans-serif;
+$font-sahel: Sahel, Tahoma;
+$font-nastaliq: Nastaliq, Tahoma;
+
+@font-face {
+  font-family: Sahel;
+  src: url("../fonts/Sahel.eot");
+  src: url("../fonts/Sahel.ttf") format("ttf"), url("../fonts/Sahel.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Nastaliq;
+  src: url("../fonts/IranNastaliq.ttf");
+  font-weight: normal;
+}
+
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin textStyles {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+@mixin centering($topValue) {
+  position: absolute;
+  top: $topValue;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%fullSpace {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $color-dark;
+}
