@@ -453,7 +453,9 @@ body {
   background: #f9cc41;
   color: #262533;
 }
-
+.btn-outline-warning{
+  color: #fff;
+}
 .container .btn-main button:hover::before {
   background: #f9cc41;
 }
@@ -665,9 +667,6 @@ body {
   background: #262533;
 }
 
-.say-item {
-  margin: 0 0 4vw 0;
-}
 
 .say-item-cap {
   margin: 6vw 0 4vw 0;
