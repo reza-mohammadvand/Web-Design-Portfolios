@@ -723,3 +723,314 @@
   transition: all 0.3s linear;
 }
 
+.barber-item:hover .img img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.barber-item:hover::before {
+  background-image: url("../img/gallery/team_bg2.png");
+}
+
+/* prices */
+.price {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 12%;
+}
+
+.price-cap p:first-child {
+  font-size: 1.6em;
+}
+
+.price-cap p:nth-child(2) {
+  font-size: 2.8em;
+}
+
+.price-cap .table {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.price-img img {
+  position: absolute;
+}
+
+.price-img .first {
+  left: -50px;
+}
+
+.price-img .second {
+  margin-top: 19%;
+  left: 33%;
+}
+
+/* gallery */
+.gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7em 0;
+}
+
+.gallery-cap {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery-cap p:first-child {
+  font-size: 1.6em;
+}
+
+.gallery-cap p:nth-child(2) {
+  font-size: 2.8em;
+}
+
+.gallery-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.gallery-item-img {
+  margin: 0 12px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item-img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  left: -100vw;
+  top: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.gallery-item-img img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.gallery-item-img:hover::after {
+  left: 0;
+}
+
+.gallery-item-img:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* news */
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.news-cap {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.news-cap p:first-child {
+  font-size: 1.5em;
+}
+
+.news-cap p:nth-child(2) {
+  font-size: 2.8em;
+}
+
+.news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.news-item:hover {
+  border-left: 1px solid #d19f68;
+  border-right: 1px solid #d19f68;
+  border-bottom: 1px solid #d19f68;
+}
+
+.news-item:hover .black {
+  background-color: #d19f68;
+}
+
+.news-item:hover .news-item-img img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.news-item-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.news-item-img img {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.news-item-img .black {
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.news-item-img .black p {
+  font-size: 1.9em;
+}
+
+.news-item-cap {
+  margin: 10px 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.news-item-cap p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.news-item-cap p:hover {
+  color: #d19f68;
+}
+
