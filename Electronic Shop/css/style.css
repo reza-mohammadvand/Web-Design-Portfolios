@@ -787,3 +787,374 @@ a {
   color: #3a3a3a;
 }
 
+.top-sell .coursel-item .item1 {
+  margin-bottom: 7px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-sell .coursel-item .item1 .cap {
+  font-size: 15px;
+}
+
+.top-sell .coursel-item .item1 .cap a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #141414;
+  transition: all 0.3s linear;
+}
+
+.top-sell .coursel-item .item1 .cap a:hover {
+  color: #d10023fa;
+}
+
+.top-sell .coursel-item .item1 .cap .price del {
+  margin-right: 14px;
+  color: gray;
+}
+
+.top-sell .coursel-item .item1 .cap .price ins {
+  color: #d10023fa;
+  text-decoration: none;
+}
+
+.news {
+  position: relative;
+  width: 100%;
+  padding: 20px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.news .input-group {
+  width: 600px;
+}
+
+.news::before {
+  content: "\f003";
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 160px;
+  color: #E4E7ED;
+  top: 50%;
+  transform: translateY(-50%) rotate(15deg);
+  z-index: -1;
+  left: 25%;
+}
+
+.news p {
+  font-size: 30px;
+  margin-bottom: 38px;
+}
+
+.news .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news .social-item {
+  padding: 7px 11px;
+  margin: 0px 13px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  transition: all 0.3s linear;
+}
+
+.news .social-item a {
+  text-decoration: none;
+  line-height: 0;
+}
+
+.news .social-item a i {
+  color: black;
+  font-size: 16px;
+  transition: all 0.3s linear;
+}
+
+.news .social-item:hover {
+  background-color: #e4e4e4;
+}
+
+.news .social-item:hover a i {
+  color: #d10023fa;
+}
+
+.footer {
+  width: 100%;
+  border-top: 3px solid #d10023fa;
+  background-color: #15161D;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.footer-item {
+  margin: 0 10px;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item p {
+  margin-bottom: 10px;
+  color: #cacaca;
+}
+
+.footer-item p a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #cacaca;
+  transition: color 0.3s linear;
+}
+
+.footer-item p a:hover {
+  color: #d10023fa;
+}
+
+.footer-item p:first-child {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+}
+
+.footer-item .contact i {
+  color: #D10024;
+  margin-left: 15px;
+}
+
+.footer-item .contact a {
+  display: block;
+  margin-bottom: 15px;
+  color: #cacaca;
+  transition: all 0.3s linear;
+}
+
+.footer-item .contact a:hover {
+  text-decoration: none;
+  color: #D10024;
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1E1F29;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.copy div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy div a {
+  color: #15161D;
+  margin: 0 3px;
+}
+
+.copy div a i {
+  font-size: 42px;
+}
+
+.copy p {
+  text-align: center;
+  margin: 15px 10px 0;
+  color: gray;
+}
+
+.copy p a {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.copy p a:hover {
+  text-decoration: none;
+  color: #d10023fa;
+}
+
+@media (max-width: 1200px) {
+  .collection-item p {
+    font-size: .8em;
+  }
+  .collection-item p span {
+    font-size: 1.5em;
+  }
+  .collection-item p a {
+    font-size: 0.7em;
+  }
+  .timer .timer-cap .counter div {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1200px) and (max-width: 992px) {
+  .footer-item .contact a {
+    font-size: 10px;
+  }
+  .footer-item p:first-child {
+    font-size: 1.3em;
+  }
+  .footer-item p {
+    font-size: 13px;
+  }
+  .top-sell .coursel-item > p {
+    font-size: 1.3em;
+  }
+  .top-sell .owl-nav span {
+    font-size: 10px;
+    padding: 0px 7px;
+  }
+  .top-sell .owl-nav {
+    left: 10px;
+    top: -50px;
+  }
+  .top-sell .coursel-item .item1 .cap > p {
+    font-size: 11px;
+  }
+  .top-sell .coursel-item .item1 .cap a {
+    font-size: 14px;
+  }
+  .top-sell .coursel-item .item1 .cap .price {
+    font-size: 11px;
+  }
+  .collection-item p {
+    font-size: 1.4em;
+  }
+  .collection-item p span {
+    font-size: 1.7em;
+  }
+  .collection-item p a {
+    font-size: 0.7em;
+  }
+  .timer .timer-cap .counter div {
+    width: 10%;
+  }
+  .collection-item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .timer .timer-cap .counter div {
+    width: 15%;
+  }
+  .header .header-mid .container .search {
+    margin: 15px auto 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-item {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+  .collection-item p {
+    font-size: 0.8em;
+  }
+  .timer .timer-cap .counter div {
+    width: 10%;
+  }
+  .timer .timer-cap .cap {
+    font-size: 1.5em;
+  }
+  .timer .timer-cap .cap p:first-child {
+    font-size: 1.5em;
+  }
+  .timer .timer-cap .counter div {
+    width: 20%;
+  }
+  .header-mid .container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .news p {
+    font-size: 4.5vw;
+  }
+  .news .input-group {
+    width: 77vw;
+  }
+  .top-sell .coursel-item {
+    width: 70%;
+  }
+  .collection-item p {
+    font-size: 1.5em;
+  }
+  .collection-item {
+    width: 70%;
+  }
+  .header-bot .header .nav-bar .hamburger {
+    top: -130px;
+  }
+  .form-control {
+    border-radius: 50px 0 0 50px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .copy p {
+    font-size: 13px;
+  }
+  .copy div a i {
+    font-size: 33px;
+  }
+  .top-sell .coursel-item .item1 .cap a {
+    font-size: 3.2vw;
+  }
+  .top-sell .coursel-item {
+    width: 85%;
+  }
+  .collection-item p {
+    font-size: 5vw;
+  }
+  .timer .timer-cap .counter div p {
+    font-size: 7vw;
+    margin-bottom: 0;
+  }
+  .timer .timer-cap .cap p:first-child {
+    font-size: 9vw;
+  }
+  .timer .timer-cap .cap {
+    font-size: 5vw;
+  }
+  .timer .timer-cap .counter div {
+    padding: 0;
+    margin: 0px 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabulation .tab-content p {
+    font-size: 1em;
+  }
+  .tabulation2 .nav-tabs .nav-item .nav-link {
+    font-size: 12px;
+    padding: 15px 5px;
+  }
+  .collection-item p {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 330px) {
+  .collection-item p {
+    font-size: 3.5vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
