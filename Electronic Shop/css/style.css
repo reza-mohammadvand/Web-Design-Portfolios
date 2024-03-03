@@ -499,3 +499,291 @@ a {
   opacity: 0;
 }
 
+.tabulation2 .nav-tabs .nav-item .nav-link:after {
+  border-bottom: 11px solid #f8f9fa;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1px;
+  opacity: 0;
+}
+
+.tabulation2 .nav-tabs .nav-item .nav-link.active {
+  background: transparent;
+  color: #d10023fa;
+}
+
+.tabulation2 .nav-tabs .nav-item .nav-link.active:after, .tabulation2 .nav-tabs .nav-item .nav-link.active:before {
+  opacity: 1;
+}
+
+.tabulation2 .tab-content {
+  box-shadow: none;
+  background: transparent;
+}
+
+.tabs1 {
+  width: 260px;
+  padding: 10px 0 80px 0;
+}
+
+.tabs1 .h:hover .add {
+  top: 500px;
+}
+
+.tabs1 .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1a1a1a;
+  position: absolute;
+  top: 400px;
+  transition: all 0.3s linear;
+  border-radius: 0 0 5px 5px;
+}
+
+.tabs1 .add button {
+  color: #fff;
+  background-color: #d10023fa;
+  border-radius: 25px;
+  border: 2px solid #d10023fa;
+  margin: 17px 0;
+  padding: 6px 13px;
+  transition: all 0.4s linear;
+}
+
+.tabs1 .add button i {
+  color: #d10023fa;
+  display: none;
+}
+
+.tabs1 .add button:hover {
+  background-color: #fff;
+  color: #d10023fa;
+}
+
+.tabs1 .add button:hover i {
+  display: inline;
+}
+
+.tabs1 .item {
+  display: inline-block;
+  background: #fff;
+  padding: 25px 0;
+  border: 1.5px solid silver;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.tabs1 .item .discount {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.tabs1 .item .discount span {
+  color: #d10023fa;
+  padding: 0 10px;
+  font-size: 13px;
+  border: 1px solid #D10024;
+}
+
+.tabs1 .item .discount span:last-child {
+  background-color: #d10023fa;
+  color: #fff;
+}
+
+.tabs1 .item .cap {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.tabs1 .item .cap a {
+  text-decoration: none;
+  color: #141414;
+  transition: all 0.3s linear;
+}
+
+.tabs1 .item .cap a:hover {
+  color: #d10023fa;
+}
+
+.tabs1 .item .price {
+  text-align: center;
+}
+
+.tabs1 .item .price del {
+  margin-right: 14px;
+  color: gray;
+}
+
+.tabs1 .item .price ins {
+  color: #d10023fa;
+  text-decoration: none;
+}
+
+.tabs1 .item .star {
+  position: absolute;
+  top: 411px;
+  left: 98px;
+}
+
+.tabs1 .item i {
+  margin: -2px;
+  color: #d10023fa;
+  font-size: 12px;
+}
+
+.tabs1 .item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs1 .item .icon a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  margin: 0 10px;
+  border-radius: 50px;
+}
+
+.tabs1 .item .icon a i {
+  color: #535353;
+  transition: all 0.3s linear;
+}
+
+.tabs1 .item .icon a:hover {
+  background-color: #e7e7e7;
+}
+
+.tabs1 .item .icon a:hover i {
+  color: #d10023fa;
+}
+
+.tabs1 .item:hover {
+  border: 1.5px solid #d10023fa;
+}
+
+.timer {
+  width: 100%;
+  padding: 60px 0px;
+  margin: 30px 0px;
+  background-color: #E4E7ED;
+  background-image: url("../img/hotdeal.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.timer .timer-cap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer .timer-cap .counter {
+  margin-bottom: 20px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.timer .timer-cap .counter div {
+  padding: 8px 0;
+  background-color: #d10023fa;
+  width: 9%;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50px;
+}
+
+.timer .timer-cap .counter div p {
+  font-size: 37px;
+  margin-bottom: 0;
+}
+
+.timer .timer-cap .counter div span {
+  color: #ebebeb;
+  font-size: 15px;
+}
+
+.timer .timer-cap .cap {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1E1F29;
+  font-size: 2em;
+}
+
+.timer .timer-cap .cap p:first-child {
+  color: #1f2029;
+  font-size: 2.15em;
+}
+
+.timer .timer-cap .btn input[type="button"] {
+  font-size: 1.5em;
+  border-radius: 50px;
+  border: 1px solid #d10023fa;
+  background-color: #d10023fa;
+  color: #fff;
+  padding: 8px 55px;
+  transition: all 0.3s linear;
+}
+
+.timer .timer-cap .btn input[type="button"]:hover {
+  background-color: #D10024;
+}
+
+.top-sell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.top-sell .owl-nav {
+  left: 63px;
+  top: -55px;
+  position: absolute;
+}
+
+.top-sell .owl-nav button:hover {
+  background-color: #fff !important;
+}
+
+.top-sell .owl-nav span {
+  border: 1px solid gray;
+  color: #000;
+  padding: 0px 11px;
+  border-radius: 50px;
+  transition: all 0.2s linear;
+}
+
+.top-sell .owl-nav span:hover {
+  border: none;
+  background: #d10023fa;
+  color: #fff;
+}
+
+.top-sell .coursel-item {
+  margin-bottom: 30px;
+  position: relative;
+  width: 45%;
+}
+
+.top-sell .coursel-item > p {
+  font-size: 1.8em;
+  color: #3a3a3a;
+}
+
