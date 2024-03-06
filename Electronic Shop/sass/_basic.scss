@@ -1,0 +1,40 @@
+$red:#D10024;
+$redk:#d10023fa;
+*{
+    font-family: iyekan;
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: vaziri;
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: iyekan;
+    src: url("../fonts/iyekan/IRANYekanMedium.ttf");
+     font-weight: normal;
+}
+
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
