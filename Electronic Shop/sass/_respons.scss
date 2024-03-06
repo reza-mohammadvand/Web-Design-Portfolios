@@ -1,0 +1,199 @@
+    @media (min-width:576px){
+        
+        }
+
+
+            
+@media (min-width:768px){
+
+}
+
+
+
+@media (min-width:992px){
+    
+}
+
+
+@media (min-width:1200px){
+
+}
+
+
+
+@media (max-width:1200px){
+    .collection-item p {
+        font-size: .8em;
+     span {
+            font-size: 1.5em;
+        }
+        a {
+            font-size: 0.7em;
+    }
+}
+    .timer .timer-cap .counter div {
+        width: 10%;
+    }
+
+
+
+
+@media (max-width:992px){
+    .footer-item .contact a {
+        font-size: 10px;
+    }
+    .footer-item p:first-child {
+        font-size: 1.3em;
+    }
+    .footer-item p {
+        font-size: 13px;
+    }
+    .top-sell .coursel-item > p {
+        font-size: 1.3em;
+    }
+    .top-sell .owl-nav span {
+        font-size: 10px;
+        padding: 0px 7px;
+    }
+    .top-sell .owl-nav {
+        left: 10px;
+        top: -50px;
+    }
+    .top-sell .coursel-item .item1 .cap>p{
+        font-size: 11px;
+    }
+    .top-sell .coursel-item .item1 .cap a{
+        font-size: 14px;
+    }
+    .top-sell .coursel-item .item1 .cap .price{
+        font-size: 11px;
+    }
+
+    .collection-item p {
+        font-size: 1.4em;
+     span {
+            font-size: 1.7em;
+        }
+        a {
+            font-size: 0.7em;
+    }
+}
+    .timer .timer-cap .counter div {
+        width: 10%;
+    }
+    .collection-item {
+        width: 45%;
+    }
+}  
+    .timer .timer-cap .counter div {
+        width: 15%;
+    }
+  .header .header-mid .container .search{
+    margin: 15px auto 0px;
+  }
+}
+
+@media (max-width:768px){
+    .footer-item {
+        width: 43%;
+        margin-bottom: 20px;
+    }
+    
+    .collection-item p {
+        font-size: 0.8em;
+    }
+    
+    .timer .timer-cap .counter div {
+        width: 10%;
+    }
+    .timer .timer-cap .cap {
+        font-size: 1.5em;
+    }
+    .timer .timer-cap .cap p:first-child {
+        font-size: 1.5em;
+    }
+    .timer .timer-cap .counter div {
+        width: 20%;
+    }
+    .header-mid .container{
+        justify-content: center;
+    }
+    }
+
+
+
+    @media (max-width:576px){
+        .news p {
+            font-size: 4.5vw;
+        }
+        .news .input-group{
+        width: 77vw;
+        }
+        .top-sell .coursel-item {
+            width: 70%;
+        }
+        .collection-item p {
+            font-size: 1.5em;
+        }
+        .collection-item {
+            width: 70%;
+        }
+        .header-bot .header .nav-bar .hamburger {
+            top: -130px;
+        }
+     .form-control{
+border-radius: 50px 0 0 50px !important;
+     }
+}
+
+@media (max-width:480px){
+    .copy p {
+        font-size: 13px;
+    }
+    .copy div a i {
+        font-size: 33px;
+    }
+    .top-sell .coursel-item .item1 .cap a {
+        font-size: 3.2vw;
+    }
+    .top-sell .coursel-item {
+        width: 85%;
+    }
+    .collection-item p {
+        font-size: 5vw;
+    }
+    .timer .timer-cap .counter div p {
+        font-size: 7vw;
+        margin-bottom: 0;
+        
+    }
+    .timer .timer-cap .cap p:first-child {
+        font-size: 9vw;
+    }
+    .timer .timer-cap .cap {
+        font-size: 5vw;
+    }
+    .timer .timer-cap .counter div {
+         padding: 0;
+                 margin: 0px 3px;
+    }
+}
+@media (max-width:480px){
+    .tabulation .tab-content {
+        p{
+            font-size: 1em;
+        }
+    }
+    .tabulation2 .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+    .collection-item p {
+        font-size: 4vw;
+    }
+}
+@media (max-width:330px){
+    .collection-item p {
+        font-size: 3.5vw;
+    }
+}
