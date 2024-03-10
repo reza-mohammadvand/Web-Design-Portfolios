@@ -1,0 +1,55 @@
+$btn-sabz:#89ba16;
+
+*{
+    font-family: iyekan;
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Sahel-Bold-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: vaziri;
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.eot");
+    src: url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+     url("../fonts/vazirsahel/Vazir-Medium-FD-WOL.woff") format("woff");
+     font-weight: normal;
+}
+@font-face {
+    font-family: iyekan;
+    src: url("../fonts/iyekan/IRANYekanMedium.ttf");
+     font-weight: normal;
+}
+$main-color: #f0f0f0;
+
+ @mixin display-child($n) {
+    @for $i from 2 through $n {
+      &:nth-child(#{$i}) {
+        a {
+          display: inline-block;
+        }
+      }
+    }
+ }
+
+ %fullSpace {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin textStyles {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
