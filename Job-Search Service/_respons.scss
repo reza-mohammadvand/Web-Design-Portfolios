@@ -1,0 +1,138 @@
+
+       
+
+
+        @media (min-width:576px){
+            .nav-bar,.header-logo{
+                margin:0 35px;
+            }
+            .header{
+                justify-content:space-between;
+            }
+            .select1,.select2,.btn-search{
+                flex-basis:28vw;}
+                .num-cunter{
+                    font-size:50px;
+                
+            }
+            }
+
+
+            
+@media (min-width:768px){
+    .select1,.select2,.btn-search{
+        flex-basis:30vw;
+        }
+        .num-cunter{
+            font-size:60px;
+        }
+        .look{
+            .container{
+            .btn-login{
+                padding: 1vw 5vw;
+            }
+        }
+        }
+        
+
+}
+
+
+
+@media (min-width:992px){
+.select1,.select2,.btn-search{
+    flex-basis:15vw;
+}
+    .btn-login {
+        padding: 1vw 6vw;
+    }
+
+    .header{
+        align-items:baseline;
+        justify-content:space-around;
+    }
+}
+
+
+@media (max-width:768px){
+    .jobs-item-cap {
+        font-size: 13px!important;
+    }
+    .footer .container .footer-item ul li {
+        font-size: 13px;
+    }
+
+
+    .app{
+.container1{
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    .app-cap{
+p{
+    font-size:4.5vw;
+}
+span{
+    font-size:2.5vw;
+}
+    }
+}
+    }
+
+
+.page{
+    flex-direction:column;
+    align-items:center;
+    &-link1,&-cap{
+        display: flex;
+    justify-content: center;
+    }
+}
+
+.look{
+    .container{
+    flex-direction:column;
+    align-items:center;
+    .btn-login{
+        padding: 0 20vw;
+        margin-top:15px;
+
+    }
+}
+}
+
+}
+
+
+@media (max-width:576px){
+    .slider p {
+        font-size: 18px;
+    }
+    .jobs-item-cap {
+        font-size: 8px!important;
+    }
+    .nav-bar,.header-logo{
+        margin:0 35px;
+    }
+    .select1,.select2,.btn-search{
+        flex-basis:50vw;
+    }
+
+        .num-cunter{
+            font-size:40px;   
+    }
+
+    .header{
+        justify-content:space-between;
+    }
+}
+
+@media (max-width:430px){
+    .app .container1 .app-cap-btn .btn-app {
+      
+        padding: 0 !important;
+    }
+.jobs .page-link1 li a {
+    padding: 0px 5px;
+}
+}
