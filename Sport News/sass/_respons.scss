@@ -1,0 +1,154 @@
+
+        @media (max-width:576px){
+            .header{
+                justify-content: space-between;
+                padding: 0 50px;
+            }
+        }
+
+
+        @media (min-width:576px){
+            .header{
+                justify-content: space-between;
+                padding: 0 50px;
+            }
+            }
+
+
+            
+@media (min-width:768px){
+    .coursel .news-img-item .cap{
+        top:83% !important;
+    }
+    .match-news .news-img-item .cap{
+        top:55% !important;
+    }
+}
+
+
+
+@media (min-width:992px){
+    .match-news .news-img,.coursel .news-img{
+        flex-direction:row !important;
+       }
+      
+    .match-news .news-img-item .cap{
+        top:70% !important;
+    }
+    .header{
+        justify-content: space-around;
+    }
+
+}
+
+
+@media (max-width:992px){
+    .blog .container .blog-item-cap{
+small{
+    font-size: 1.3vw !important;
+}
+p{
+    font-size: 1.5vw !important;
+}
+a{
+    font-size: 2vw !important;
+}
+    
+    }
+
+
+
+    .coursel .news-img-item {
+        margin:0 10px 30px 10px !important;
+    }
+    .blog.container{
+        display:flex;
+        flex-direction:column;
+    }
+
+
+
+
+.result > p{
+    font-size:35px !important;
+}
+.match-item1::before{
+    right:-10px !important;
+}
+    }
+
+@media (max-width:768px){
+    .footer .container .footer-item ul li {
+        font-size: 13px;
+    }
+    .coursel .news-img-item .cap{
+        top:74% !important;
+    }
+    .match-news .news-img{
+        flex-direction:column !important;
+       }
+       .match-news .news-img-item {
+        margin-bottom: 30px !important;
+    }
+    .match-item1::before{
+        right:4px !important;
+    }
+    .result > p{
+        font-size:23px !important;
+    }
+    }
+
+
+    @media (max-width:1200px){
+        .match-item1::before{
+    right:-32px;
+    }
+}
+
+
+@media (max-width:576px){
+    .start .cap p:first-child {
+        font-size: 34px !important;
+    }
+    .btn-start1{
+        padding: 2vw 4vw !important;
+          }
+
+.time{
+    div{
+        margin:0 3.4vw !important;
+        p{
+            font-size:28px !important;
+        }
+        span{
+            font-size:3.2vw !important;
+        }
+    }
+}
+
+.match p {
+    font-size:2.5vw !important;
+}
+
+    .match-item1::before{
+        right:2vw !important;
+    }
+    .result > p{
+        font-size:6vw !important;
+    }
+}
+
+@media (max-width:420px){
+    .blog .container .blog-item-cap{
+        small{
+            font-size: 1vw !important;
+        }
+        p{
+            font-size: 1.2vw !important;
+        }
+        a{
+            font-size: 1.7vw !important;
+        }
+            
+            }
+}
